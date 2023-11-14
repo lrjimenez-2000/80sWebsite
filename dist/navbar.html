@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Timeless Tunes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<!--Navabar with buttons that include Home, Budgeting, Menu, create account and login-->
+
+<body>
+    <div id="nav-placeholder"> </div>
+  
+    <!-- Div's are for the background image with the text in the top middle-->
+    <div class="indexTop">
+      <div class="back"> </div>
+    </div>
+    <!-- Div's are for the about us section with statement being the black left portion
+          and aboutusText being the actual text on the right-->
+    <div class="AboutUsSection">
+      <div class="statement">About us</div>
+      <div class="aboutusText"> Here at Timeless Tunes we want to share the very best songs of the the greatest decades of music which are the 70s
+        and the 80s. From the soft rock to disco in the 70s and also everything in between from post disco to power ballads and love songs we got
+        them here to share. 
+      </div>
+    </div>
+  
+    <!-- Div below is responsible for the gallery at the bottom of the page-->
+    <div id="gallery" class="carousel slide" data-bs-ride="true">
+  
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#gallery" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#gallery" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#gallery" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#gallery" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#gallery" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#gallery" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner">
+        <!--Divs contains the images-->
+        <div class="carousel-item active">
+          <img src="./assets/pexels-los-muertos-crew-7601400.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/pexels-rodnae-productions-5737254.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/pexels-roman-odintsov-4958730.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/pexels-cokeBottle.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/pexels-OJ.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/pexels-TenderLoin.jpg" class="d-block w-100" alt="...">
+        </div>
+  
+      </div>
+  
+      <button class="carousel-control-prev" type="button" data-bs-target="#gallery" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+  
+      <button class="carousel-control-next" type="button" data-bs-target="#gallery" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+    <footer class="footer text-center text-lg-start fixed-bottom">
+      <div class="text-center p-3">
+        <a class="text-dark" href="aboutus.html">About Us</a>
+        <a class="text-dark" href="readme.html">Read Me</a>
+      </div>
+    </footer>
+  
+    <!-- Importing scripts and stylesheet-->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/NavbarForm.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <script src="index.bundle.js"></script>
+    <script src="auth.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("navbar.html");
+      });
+    </script>
+  
+  </body>
