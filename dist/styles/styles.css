@@ -1,94 +1,43 @@
-.indexTop{
-    background-image: url('./pexels-pixabay-159613.jpg');
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    height: 625px;
-    border-radius: 1px;
-}
-.back{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    padding-top: 25px;
-    color: #fba300;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    font-size:xx-large;
-    font-weight: bold;
-}
-.AboutUsSection{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.statement{
-    display: flex;
-    justify-content: center;
-    height: 300px;
-    width:1000px;
-    padding-right: 300px;
-    padding-top: 100px;
-    padding-left: 300px;
-    align-self: center;
-    text-align: center;
-    font-size: xx-large;
-    color:white;
-    background-color: black;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-.aboutusText{
-    display: flex;
-    border: 1px solid rgb(255, 255, 255);
-    flex-wrap: wrap;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 30px;
-    font-size: larger;
-    border-radius: 4px;
+
+#navigationbar{
+    margin: 0;
+    padding: 0;
 
 }
-.carousel-inner{
-    height: 900px;
+
+
+#Home{
+    margin: 0;
+    padding: 0;
+    color: purple;
+    display: inline;
+
 }
 
-.signupSection,
-.loginSection {
-    height: 100px;
-    display: none;
-    padding-left: 50px;
-    padding-right: 30px;
+
+#Playlist{
+    margin: 0;
+    padding: 0;
+    color: purple;
+    display: inline;
+
 }
 
-.signup-login {
-    padding-left: 50 px;
-    padding-right: 30px;
-    background-color: white;
+
+#Profile{
+    margin: 0;
+    padding: 0;
+    color: green;
+    display: inline;
+
+
 }
 
-input {
-    background-color: white;
-    border-radius: 4px;
-}
 
-input:focus {
-    border: 3px solid #FF8200
-}
+#Signout{
+    margin: 0;
+    padding: 0;
+    color: green;
+    display: inline;
 
-button {
-    background-color: #041E42;
-    border: none;
-    color: white;
-    padding: 2px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-#AlertPlaceholder{
-    position: relative;
-    top: 0;
-}
-.wrapper{
-    position: relative;
 }
